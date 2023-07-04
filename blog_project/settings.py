@@ -123,3 +123,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4' #Configurating crispy forms for bootstrap 4
+
+LOGIN_REDIRECT_URL = 'blog-home' #Setting for redirecting after login
+
+LOGIN_URL = 'login' #Sets the login route
