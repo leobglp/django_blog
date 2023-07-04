@@ -1,5 +1,5 @@
-##Requirements
+## Requirements
 
--Python
--Django
--Crispy Forms
+- Python
+- Django
+- Crispy Forms
