@@ -3,3 +3,4 @@
 - Python
 - Django
 - Crispy Forms
+- Pillow

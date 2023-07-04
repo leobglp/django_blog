@@ -122,6 +122,10 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media') #Creates 'profile_pics' inside media directory and puts the image in there
+
+MEDIA_URL = '/media/' #How the image will be accessed in the browser
+
 CRISPY_TEMPLATE_PACK = 'bootstrap4' #Configurating crispy forms for bootstrap 4
 
 LOGIN_REDIRECT_URL = 'blog-home' #Setting for redirecting after login
